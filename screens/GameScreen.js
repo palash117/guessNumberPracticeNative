@@ -25,7 +25,6 @@ const GameScreen = ({selectedNumber, gameOver}) => {
             gameOver(rounds.current.length)
         }
     }, [guessedNumber, selectedNumber, gameOver])
-
     const higherOrLower = (high)=>{
         console.log("button pressed")
         let nextGuess;
